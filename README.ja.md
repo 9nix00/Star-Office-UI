@@ -29,12 +29,14 @@ https://github.com/ringhyacinth/Star-Office-UI/blob/master/SKILL.md
 
 ### 方法 2：30 秒手動セットアップ
 
+> **Python 3.10+ が必要です**（コードベースは `X | Y` ユニオン型構文を使用しており、3.9 以前のバージョンではサポートされていません）
+
 ```bash
 # 1) リポジトリをクローン
 git clone https://github.com/ringhyacinth/Star-Office-UI.git
 cd Star-Office-UI
 
-# 2) 依存関係をインストール
+# 2) 依存関係をインストール（Python 3.10+ が必要）
 python3 -m pip install -r backend/requirements.txt
 
 # 3) 状態ファイルを初期化（初回のみ）

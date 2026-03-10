@@ -29,12 +29,14 @@ https://github.com/ringhyacinth/Star-Office-UI/blob/master/SKILL.md
 
 ### 方式二：30 秒手动部署
 
+> **环境要求：Python 3.10+**（代码使用了 `X | Y` union type 语法，不支持 3.9 及更低版本）
+
 ```bash
 # 1) 下载仓库
 git clone https://github.com/ringhyacinth/Star-Office-UI.git
 cd Star-Office-UI
 
-# 2) 安装依赖
+# 2) 安装依赖（需要 Python 3.10+）
 python3 -m pip install -r backend/requirements.txt
 
 # 3) 准备状态文件（首次）

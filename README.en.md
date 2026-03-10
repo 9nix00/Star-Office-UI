@@ -29,12 +29,14 @@ Your lobster will automatically clone the repo, install dependencies, start the 
 
 ### Option 2: 30-second manual setup
 
+> **Requires Python 3.10+** (the codebase uses `X | Y` union type syntax, which is not supported on 3.9 or earlier)
+
 ```bash
 # 1) Clone the repo
 git clone https://github.com/ringhyacinth/Star-Office-UI.git
 cd Star-Office-UI
 
-# 2) Install dependencies
+# 2) Install dependencies (Python 3.10+ required)
 python3 -m pip install -r backend/requirements.txt
 
 # 3) Initialize state file (first run)
